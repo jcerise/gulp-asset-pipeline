@@ -9,10 +9,10 @@ familiarize myself with Gulp.
 
 ## Installation
 
-  git clone git@github.com:jcerise/gulp-asset-pipeline.git
-  
-  npm install
-  
+    git clone git@github.com:jcerise/gulp-asset-pipeline.git
+
+    npm install
+
 ## File structure
 
 Gulp will look in ./scss for .scss files, ./less for .less files, and
@@ -20,21 +20,21 @@ Gulp will look in ./scss for .scss files, ./less for .less files, and
 
 ## Usage
 
-  gulp watch
+    gulp watch
 
 This will set gulp to watching all files for changes, and it will
 compile and minify when changes are detected, automatically
 
-  gulp rev
+    gulp rev
 
 This will add static versions (with hashed files names) of all files to
 the ./dist directory
 
 You can also run each compiler task separately
 
-  gulp sass
-  gulp less
-  gulp scripts
+    gulp sass
+    gulp less
+    gulp scripts
 
 ## Release History
 
